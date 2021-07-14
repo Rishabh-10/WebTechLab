@@ -4,7 +4,8 @@ body{
 
 /* Header */
 .nav-items {
-    margin-right: 5px;
+    margin-top: 5px;
+    margin-right: 40px;
 }
 
 .nav-links {
@@ -28,8 +29,13 @@ main {
     margin: 50px auto;
 }
 
+.left-section{
+    margin-top: 2rem;
+    margin-left: 3rem;
+}
+
 .register h1{
-    color: #f13a3a;
+    color: #f70606;
     font-size: 72px;
 }
 
@@ -38,16 +44,17 @@ main {
 }
 
 .main-line {
-    font-size: 30px;
-    color: #f13a3a;
-    margin: 20px 0px;
+    width: 80%;
+    font-size: 40px;
+    color: #f70000;
+    margin: 50px 0px;
 }
 
 .left-section p {
-    margin: 30px 0px;
+    margin: 70px 0px;
     padding-right: 7px;
     color: white;
-    font-size: 25px;
+    font-size: 20px;
     line-height: 30px;
 }
 
@@ -57,24 +64,29 @@ main {
     flex-direction: column;
 }
 
+
+
 .form-line {
-    font-size: 23px;
+   
+    width: 90%;
+    font-size: 20px;
     color: white;
-    background-color: #f13a3a;
-    border-radius: 7px;
-    padding: 5px;
+    background-color: #fa0c0c;
+    border-radius: 5px;
+    padding: 20px;
     text-align: center;
-    margin-bottom: 10px;
+    margin: 7px auto;
+    
 }
 
 /* Form */
 .main{
-    width: 100%;
+    width: 90%;
     margin: auto auto;
 
     display: flex;
     flex-direction: column;
-    border: solid #f13a3a;
+    border: solid #fa0909;
     background-color: white;
     border-radius: 5px;
     box-shadow: 0px 6.5px  rgba(71, 67, 67, 0.212);
@@ -88,9 +100,9 @@ input::placeholder{
     display: block;
     border: 0.5px solid rgb(226, 219, 219);
     border-radius: 5px;
-    height: 3.5rem;
-    width: 90%;
-    margin: 15px auto;
+    height: 3rem;
+    width: 80%;
+    margin: 40px auto;
     outline-color:hsl(246, 40%, 76%);
 
     caret-color:hsl(248, 32%, 49%);
@@ -103,8 +115,9 @@ input::placeholder{
 }
 
 .text-main {
+    font-size: x-small;
     text-align: center;
-    margin: 7px 0px;
+    padding-bottom: 1rem;
 }
 
 .text-main span{
@@ -115,6 +128,7 @@ input::placeholder{
     background-color: black;
     color: white;
     cursor: pointer;
+    margin-bottom: 20px;
 }
 
 @media all and (min-width: 800px) {
