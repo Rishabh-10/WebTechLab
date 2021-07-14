@@ -1,0 +1,152 @@
+body{
+    background-color: hsl(0, 0%, 0%);
+}
+
+/* Header */
+.nav-items {
+    margin-top: 5px;
+    margin-right: 40px;
+}
+
+.nav-links {
+    font-weight: 400;
+}
+
+#contact-header {
+    background-image: none;
+    height: 10vh;
+}
+
+.container {
+    padding: 0px;
+}
+
+/* Main */
+main {
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    margin: 50px auto;
+}
+
+.left-section{
+    margin-top: 2rem;
+    margin-left: 3rem;
+}
+
+.register h1{
+    color: #f70606;
+    font-size: 72px;
+}
+
+.register span {
+    color: white;
+}
+
+.main-line {
+    width: 80%;
+    font-size: 40px;
+    color: #f70000;
+    margin: 50px 0px;
+}
+
+.left-section p {
+    margin: 70px 0px;
+    padding-right: 7px;
+    color: white;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+/* Main section */
+.right-section {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.form-line {
+   
+    width: 90%;
+    font-size: 20px;
+    color: white;
+    background-color: #fa0c0c;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    margin: 7px auto;
+    
+}
+
+/* Form */
+.main{
+    width: 90%;
+    margin: auto auto;
+
+    display: flex;
+    flex-direction: column;
+    border: solid #fa0909;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 6.5px  rgba(71, 67, 67, 0.212);
+}
+
+input::placeholder{
+    color: rgb(126, 123, 123);
+}
+
+.row {
+    display: block;
+    border: 0.5px solid rgb(226, 219, 219);
+    border-radius: 5px;
+    height: 3rem;
+    width: 80%;
+    margin: 40px auto;
+    outline-color:hsl(246, 40%, 76%);
+
+    caret-color:hsl(248, 32%, 49%);
+}
+
+#first-name, #last-name, #email, #password {
+    padding: 10px 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.text-main {
+    font-size: x-small;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.text-main span{
+    color: red;
+}
+
+#button {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+@media all and (min-width: 800px) {
+    main {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .left-section {
+        width: 50%;
+    }
+
+    .right-section {
+        width: 45%;
+    }
+
+    .msg {
+        width: 25%;
+        text-align: center;
+    }
+}
