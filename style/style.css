@@ -190,27 +190,3 @@ main {
     justify-content: space-around;
     color: black;
 }
-
-
-@media all and (min-width: 900px) {
-    #ourMission {
-        display: flex;
-        flex-direction: row;
-    }
-    
-    .left-side-text {
-        width: 55%;
-    }
-
-    .left-side-text h1 {
-        text-align: left;
-    }
-    
-    .right-side-image {
-        border-radius: 10px;
-        width: 45%;
-        background-image: url('../images/Home/ourMission.jpg');
-        background-position: center;
-        background-size: cover;
-    }
-}

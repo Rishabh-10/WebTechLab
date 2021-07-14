@@ -4,3 +4,52 @@
 header {
     background-image: url('../images/About/about-3.jpg');
 }
+
+.sections {
+    margin: 10px auto 70px auto;
+}
+
+#mission-statement {
+    font-size: 50px;
+    line-height: 50px;
+}
+
+#services {
+    font-size: 25px;
+    line-height: 35px;
+}
+
+@media all and (min-width: 900px) {
+    #ourMission, #ourServices {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .left-side-text, .right-side-text {
+        width: 55%;
+    }
+
+    .left-side-text h1 {
+        text-align: left;
+    }
+
+    .right-side-text h1, .right-side-text {
+        text-align: right;
+    }
+    
+    .right-side-image, .left-side-image {
+        border-radius: 10px;
+        width: 45%;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .right-side-image {
+        background-image: url('../images/Home/ourMission.jpg');
+    }
+
+    .left-side-image {
+        background-image: url('../images/Home/mainImage.jpg');
+    }
+
+}
