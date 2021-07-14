@@ -1,6 +1,133 @@
+
 /* Header */
 
-/* Nav-Bar */
-header {
-    background-image: url('../images/About/about-3.jpg');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Karla', sans-serif;
+    overflow: hidden;
+    background-image: url("/WebTechLab/images/lappy.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(0, 0, 0);
+    padding: 1rem;
+}
+
+.nav-bar ul {
+    list-style-type: none;
+}
+
+.nav-items {
+    display: inline-block;
+}
+
+.nav-links {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin: 2rem;
+    font-size: 1.25rem;
+}
+
+.nav-links:hover {
+    text-decoration: underline;
+    color: rgb(255, 0, 0);
+}
+.main{
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    padding: 1rem;
+}
+
+.logo:hover {
+    cursor: pointer;
+    animation: logoAnimation 2s ease-out;
+}
+
+.logo h1{
+    padding-left: 38rem;
+}
+
+.about-us-logo{
+    width: 40rem;
+    height: 8rem;
+    font-size: 3rem;
+    border: solid;
+    text-align: center;
+    color: #f13a3a;
+    position: relative;
+    left: 28rem;
+    top: 1rem;
+   
+}
+
+.about-us-logo h1{
+    position: relative;
+    bottom: 3.5rem;
+}
+
+.about-us-logo span{
+    color: white;
+}
+
+
+.slide-menu{
+    display: flex;
+    flex-direction: row;
+    font-weight: 400;
+    margin: 1.2rem;
+    color: #ffffff;
+    font-size: 1.25rem;
+    justify-content: center;
+    position: relative;
+    right: 10rem;
+    
+}
+
+.slide-menu-item{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+    margin-left: 20rem;
+
+}
+
+.div-item1{
+    text-align: center;
+    width: 25rem;
+    height: 30rem;
+    
+}
+.div-item2{
+    text-align: center;
+    width: 25rem;
+    height: 30rem;
+
+
+}
+.div-item3{
+    text-align: center;
+    width: 25rem;
+    height: 30rem;
+   
+
+}
+.div-item4{
+    text-align: center;
+    width: 20rem;
+    height: 30rem;
+}
+
+.slide-menu-item h3:hover{
+    color: red;
 }
