@@ -30,8 +30,8 @@ main {
 }
 
 .left-section{
-    margin-top: 2rem;
-    margin-left: 3rem;
+    margin-top: 32px;
+    margin-left: 48px;
 }
 
 .register h1{
@@ -62,21 +62,18 @@ main {
 .right-section {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
-
-
 .form-line {
-   
     width: 90%;
     font-size: 20px;
     color: white;
     background-color: #fa0c0c;
     border-radius: 5px;
-    padding: 20px;
+    padding: 15px;
     text-align: center;
     margin: 7px auto;
-    
 }
 
 /* Form */
@@ -89,7 +86,6 @@ main {
     border: solid #fa0909;
     background-color: white;
     border-radius: 5px;
-    box-shadow: 0px 6.5px  rgba(71, 67, 67, 0.212);
 }
 
 input::placeholder{
@@ -100,9 +96,9 @@ input::placeholder{
     display: block;
     border: 0.5px solid rgb(226, 219, 219);
     border-radius: 5px;
-    height: 3rem;
+    height: 48px;
     width: 80%;
-    margin: 40px auto;
+    margin: 30px auto;
     outline-color:hsl(246, 40%, 76%);
 
     caret-color:hsl(248, 32%, 49%);
@@ -117,7 +113,7 @@ input::placeholder{
 .text-main {
     font-size: x-small;
     text-align: center;
-    padding-bottom: 1rem;
+    padding-bottom: 16px;
 }
 
 .text-main span{
@@ -131,7 +127,7 @@ input::placeholder{
     margin-bottom: 20px;
 }
 
-@media all and (min-width: 800px) {
+@media only screen and (min-width: 800px) {
     main {
         flex-direction: row;
         justify-content: space-between;

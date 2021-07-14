@@ -92,7 +92,7 @@ input::placeholder{
     cursor: pointer;
 }
 
-@media all and (min-width: 800px) {
+@media only screen and (min-width: 800px) {
     .main-container {
         flex-direction: row;
         justify-content: space-between;
