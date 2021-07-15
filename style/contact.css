@@ -6,8 +6,10 @@ header {
 
 /* Main */
 main h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
     text-align: center;
-    font-size: 40px;
+    text-decoration: underline;
     color: #f13a3a;
 }
 
@@ -30,6 +32,7 @@ main h1 {
     border: #f13a3a solid;
     display: flex;
     flex-direction: column;
+    border-radius: 5px;
 }
 
 .form-line {
@@ -47,7 +50,6 @@ main h1 {
     display: flex;
     flex-direction: column;
     background-color: white;
-    border-radius: 5px;
 }
 
 input::placeholder{
@@ -93,6 +95,11 @@ input::placeholder{
 }
 
 @media only screen and (min-width: 800px) {
+
+    main h1 {
+        font-size: 45px;
+    }
+
     .main-container {
         flex-direction: row;
         justify-content: space-between;

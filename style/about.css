@@ -7,8 +7,10 @@ header {
 
 /* Main */
 main h1 {
+    font-size: 2rem;
+    margin-bottom: 15px;
     text-align: center;
-    font-size: 40px;
+    text-decoration: underline;
     color: #f13a3a;
 }
 
@@ -28,7 +30,7 @@ main h1 {
 
 @media all and (min-width: 900px) {
     main h1 {
-        margin-bottom: 15px;
+        font-size: 45px;
     }
     
     #ourMission, #ourServices {

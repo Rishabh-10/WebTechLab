@@ -117,11 +117,16 @@ header {
     animation: scaleUpAnimation 1s ease-in;
 }
 
+/* body */
+/* body {
+    background-color: rgb(212, 211, 211);
+} */
+
 /* Main */
 
 main {
     width: 90%;
-    margin: 25px auto;
+    margin: 10px auto;
 }
 
 .quote {
