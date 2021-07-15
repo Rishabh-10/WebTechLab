@@ -159,11 +159,18 @@ main {
 }
 
 .social-media {
+    display: flex;
+    justify-content: space-around;
+    color: black;
     margin: 25px 0px;
 }
 
 .icons {
     margin: 10px;
+}
+
+.icons p {
+    text-align: center;
 }
 
 .icons:hover {
@@ -185,8 +192,8 @@ main {
     font-size: 30px;
 }
 
-.social-media {
+.social-media-footer {
     display: flex;
-    justify-content: space-around;
-    color: black;
+    justify-content: center;
+    color: white;
 }
