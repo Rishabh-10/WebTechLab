@@ -2,7 +2,7 @@
 
 /* Nav-Bar */
 header {
-    background-image: url('../images/About/about-3.jpg');
+    background-image: url('../images/About/about.jpg');
 }
 
 /* Main */
@@ -12,10 +12,6 @@ main h1 {
     text-align: center;
     text-decoration: underline;
     color: #f13a3a;
-}
-
-.sections {
-    margin: 10px auto 70px auto;
 }
 
 #mission-statement {
@@ -32,37 +28,17 @@ main h1 {
     main h1 {
         font-size: 45px;
     }
-    
+
     #ourMission, #ourServices {
         display: flex;
         flex-direction: row;
     }
-    
-    .left-side-text, .right-side-text {
-        width: 55%;
-    }
-
-    .left-side-text h1 {
-        text-align: left;
-    }
-
-    .right-side-text h1, .right-side-text {
-        text-align: right;
-    }
-    
-    .right-side-image, .left-side-image {
-        border-radius: 10px;
-        width: 45%;
-        background-position: center;
-        background-size: cover;
-    }
 
     .right-side-image {
-        background-image: url('../images/Home/ourMission.jpg');
+        background-image: url('../images/About/ourMission.jpg');
     }
 
     .left-side-image {
-        background-image: url('../images/Home/mainImage.jpg');
+        background-image: url('../images/About/services.jpg');
     }
-
 }

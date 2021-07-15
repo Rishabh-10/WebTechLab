@@ -147,7 +147,7 @@ main {
 }
 
 .sections {
-    margin: 45px 0px;
+    margin: 10px auto 70px auto;
 }
 
 .sections h1 {
@@ -201,4 +201,42 @@ main {
     display: flex;
     justify-content: center;
     color: white;
+}
+
+@media all and (min-width: 900px) {
+    main h1 {
+        font-size: 40px;
+    }
+
+    #ourMission, #ourServices {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .left-side-text, .right-side-text {
+        width: 55%;
+    }
+
+    .left-side-text h1 {
+        text-align: left;
+    }
+
+    .right-side-text h1, .right-side-text {
+        text-align: right;
+    }
+    
+    .right-side-image, .left-side-image {
+        border-radius: 10px;
+        width: 45%;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .right-side-image {
+        background-image: url('../images/Home/blogging.jpeg');
+    }
+
+    .left-side-image {
+        background-image: url('../images/Home/mainImage.jpg');
+    }
 }
