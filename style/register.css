@@ -1,11 +1,25 @@
 body{
     background-color: hsl(0, 0%, 0%);
+    /* background-image: url('../images/Register/register-1.jpg');
+    background-position: center;
+    background-size: cover; */
 }
 
 /* Header */
-.nav-items {
-    margin-top: 5px;
-    margin-right: 40px;
+.register-header {
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 50px 0px 0px;
+}
+
+#back-btn {
+    font-size: 20px;
+    padding: 15px 50px;
+}
+
+#back-btn:hover {
+    text-decoration: none;
+    color: white;
 }
 
 .nav-links {
@@ -30,12 +44,14 @@ main {
 }
 
 .left-section {
-    margin-top: 32px;
-    margin-left: 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-bottom: 25px;
 }
 
 .register h1 {
-    color: #f70606;
+    color: #f13a3a;
     font-size: 72px;
 }
 
@@ -46,12 +62,10 @@ main {
 .main-line {
     width: 80%;
     font-size: 40px;
-    color: #f70000;
-    margin: 50px 0px;
+    color: #f13a3a;
 }
 
 .left-section p {
-    margin: 70px 0px;
     padding-right: 7px;
     color: white;
     font-size: 20px;
@@ -62,18 +76,18 @@ main {
 .right-section {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    justify-content: space-evenly;
 }
 
 .form-line {
     width: 90%;
     font-size: 20px;
     color: white;
-    background-color: #fa0c0c;
+    background-color: #f13a3a;
     border-radius: 5px;
     padding: 15px;
     text-align: center;
-    margin: 7px auto;
+    margin: 5px auto;
 }
 
 /* Form */
@@ -83,7 +97,7 @@ main {
 
     display: flex;
     flex-direction: column;
-    border: solid #fa0909;
+    border: solid #f13a3a;
     background-color: white;
     border-radius: 5px;
 }
@@ -98,7 +112,7 @@ input::placeholder{
     border-radius: 5px;
     height: 48px;
     width: 80%;
-    margin: 30px auto;
+    margin: 20px auto;
     outline-color:hsl(246, 40%, 76%);
 
     caret-color:hsl(248, 32%, 49%);
@@ -117,7 +131,7 @@ input::placeholder{
 }
 
 .text-main span{
-    color: red;
+    color: #f13a3a;
 }
 
 #button {
