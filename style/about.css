@@ -5,6 +5,13 @@ header {
     background-image: url('../images/About/about-3.jpg');
 }
 
+/* Main */
+main h1 {
+    text-align: center;
+    font-size: 40px;
+    color: #f13a3a;
+}
+
 .sections {
     margin: 10px auto 70px auto;
 }
@@ -20,6 +27,10 @@ header {
 }
 
 @media all and (min-width: 900px) {
+    main h1 {
+        margin-bottom: 15px;
+    }
+    
     #ourMission, #ourServices {
         display: flex;
         flex-direction: row;

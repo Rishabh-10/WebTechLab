@@ -43,6 +43,8 @@ main {
     margin: 15px auto 0px auto;
 }
 
+
+/* Main section */
 .left-section {
     display: flex;
     flex-direction: column;
@@ -72,7 +74,6 @@ main {
     line-height: 30px;
 }
 
-/* Main section */
 .right-section {
     display: flex;
     flex-direction: column;
@@ -80,7 +81,7 @@ main {
 }
 
 .form-line {
-    width: 90%;
+    width: 100%;
     font-size: 20px;
     color: white;
     background-color: #f13a3a;
@@ -92,7 +93,7 @@ main {
 
 /* Form */
 .main{
-    width: 90%;
+    width: 100%;
     margin: auto auto;
 
     display: flex;
@@ -111,7 +112,7 @@ input::placeholder{
     border: 0.5px solid rgb(226, 219, 219);
     border-radius: 5px;
     height: 48px;
-    width: 80%;
+    width: 85%;
     margin: 20px auto;
     outline-color:hsl(246, 40%, 76%);
 
