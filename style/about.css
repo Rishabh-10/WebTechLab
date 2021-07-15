@@ -1,6 +1,4 @@
 /* Header */
-
-/* Nav-Bar */
 header {
     background-image: url('../images/About/about.jpg');
 }
@@ -24,6 +22,8 @@ main h1 {
     line-height: 35px;
 }
 
+
+/* For fullscreen view of laptop */
 @media all and (min-width: 900px) {
     main h1 {
         font-size: 45px;

@@ -17,8 +17,6 @@ body {
 }
 
 /* Header */
-
-/* Nav-Bar */
 header {
     height: 85vh;
 
@@ -27,6 +25,7 @@ header {
     background-position: center;
 }
 
+/* Nav-Bar */
 .container {
     display: flex;
     padding: 1.25rem;
@@ -75,6 +74,12 @@ header {
     color: rgb(211, 86, 86);
 }
 
+#reg-btn {
+    padding: 10px 40px 7px 40px;
+    font-size: 15px;
+}
+
+/* Centered Text */
 .center-text {
     text-transform: uppercase;
     color: rgb(211, 86, 86);
@@ -107,22 +112,17 @@ header {
     cursor: pointer;
 }
 
-#reg-btn {
-    padding: 10px 40px 7px 40px;
-    font-size: 15px;
-}
-
 .btn-red:hover {
     animation: scaleUpAnimation 1s ease-in;
 }
 
 /* Main */
-
 main {
     width: 90%;
     margin: 10px auto;
 }
 
+/* Quote */
 .quote {
     background-color: lightgray;
 }
@@ -140,6 +140,7 @@ main {
     margin: 5px 10px 0px 0px;
 }
 
+/* Sections */
 .sections {
     margin: 10px auto 70px auto;
 }
@@ -152,6 +153,7 @@ main {
     margin: 7px 0px;
 }
 
+/* Blogs */
 .blog-container {
     width: 100%;
     display: flex;
@@ -186,8 +188,10 @@ main {
 .items a:hover {
     color: rgb(235, 233, 233);
     background-color: #292828;
+    transition-duration: 0.5s;
 }
 
+/* Images */
 .item-image {
     display: block;
     width: 550px;
@@ -201,7 +205,6 @@ main {
     border: #292828 solid;
 }
 
-/* Images */
 #image-1 {
     background-image: url('../images/Home/image-1.jpg');
 }
@@ -218,11 +221,7 @@ main {
     background-image: url('../images/Home/image-4.jpg');
 }
 
-.sections p {
-    font-size: 20px;
-    line-height: 30px;
-}
-
+/* Collaborate with us (Big Icons) */
 .social-media {
     display: flex;
     justify-content: space-around;
@@ -244,7 +243,6 @@ main {
 }
 
 /* Footer */
-
 .main-footer {
     color: white;
     padding: 15px;
@@ -263,6 +261,7 @@ main {
     color: white;
 }
 
+/* For fullscreen view of laptop */
 @media all and (min-width: 900px) {
 
     .center-text {

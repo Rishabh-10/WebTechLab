@@ -1,8 +1,5 @@
 body{
     background-color: hsl(0, 0%, 0%);
-    /* background-image: url('../images/Register/register-1.jpg');
-    background-position: center;
-    background-size: cover; */
 }
 
 /* Header */
@@ -31,11 +28,7 @@ body{
     height: 10vh;
 }
 
-.container {
-    padding: 0px;
-}
-
-/* Main */
+/* Main section */
 main {
     width: 90vw;
     display: flex;
@@ -43,8 +36,6 @@ main {
     margin: 15px auto 0px auto;
 }
 
-
-/* Main section */
 .left-section {
     display: flex;
     flex-direction: column;
@@ -74,6 +65,7 @@ main {
     line-height: 30px;
 }
 
+/* Form */
 .right-section {
     display: flex;
     flex-direction: column;
@@ -91,7 +83,6 @@ main {
     margin: 5px auto;
 }
 
-/* Form */
 .main{
     width: 100%;
     margin: auto auto;
@@ -142,6 +133,7 @@ input::placeholder{
     margin-bottom: 20px;
 }
 
+/* For fullscreen view of laptop */
 @media only screen and (min-width: 800px) {
     main {
         flex-direction: row;
@@ -154,10 +146,5 @@ input::placeholder{
 
     .right-section {
         width: 45%;
-    }
-
-    .msg {
-        width: 25%;
-        text-align: center;
     }
 }

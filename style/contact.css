@@ -1,10 +1,9 @@
 /* Header */
-
 header {
     background-image: url('../images/ContactUs/contactus.jpg');
 }
 
-/* Main */
+/* Main Section */
 main h1 {
     font-size: 2rem;
     margin-bottom: 10px;
@@ -27,7 +26,7 @@ main h1 {
     margin-bottom: 20px;
 }
 
-/* Main section */
+/* Form */
 .right-section {
     border: #f13a3a solid;
     display: flex;
@@ -42,7 +41,6 @@ main h1 {
     margin-bottom: 10px;
 }
 
-/* Form */
 .main{
     width: 100%;
     margin: auto auto;
@@ -94,6 +92,7 @@ input::placeholder{
     cursor: pointer;
 }
 
+/* For fullscreen view of laptop */
 @media only screen and (min-width: 800px) {
 
     main h1 {
@@ -109,17 +108,13 @@ input::placeholder{
         width: 40%;
     }
 
-    .main-line {
-        font-size: 50px;
-        font-style: normal;
-    }
-
+    /* Form */
     .right-section {
         width: 55%;
     }
 
-    .msg {
-        width: 25%;
-        text-align: center;
+    .main-line {
+        font-size: 50px;
+        font-style: normal;
     }
 }
