@@ -1,0 +1,158 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("images/bg6.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.payment-logo{
+    width: 35%;
+    height: 40px;
+    text-align: center;
+    font-size: 28px;
+    margin: auto auto;
+    border-radius: 5px;
+    padding: 0 20px;
+    margin: 60px auto;
+}
+
+.payment-logo h1{
+    color: white;
+    border: solid rgb(255, 253, 253);
+}
+
+.main
+{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 620px;
+    height: 700px;
+    margin: auto auto;
+    border: solid rgb(255, 254, 254);
+    border-radius: 10px;
+}
+
+.top-section{
+    display: flex;
+    background-color: rgb(221, 37, 37);
+    width: 620px;
+    height: 150px;
+   
+    text-align: center;
+}
+
+.text{
+    margin: auto 20px auto 40px;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    width: fit-content;
+
+}
+.rupee-logo{
+    margin-top: 5px;
+    margin-left: 5px;
+    display: flex;
+    width: 20%;
+    height: 80%;
+    background-image: url('images/rupee-logo.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    border: solid white;
+}
+
+.middle-section{
+    display: flex;
+    flex-direction: column;
+    width: 620px;
+    height: 250px;
+
+}
+
+label{
+    margin-top: 20px;
+    margin-left: 50px;
+    color: rgb(126, 125, 125);
+    font-size: 20px;
+    font-weight: 600;
+}
+input{
+    margin-left: 50px;
+    height: 40px;
+    width: 500px;
+    border-width: 0 0 2px;
+    outline: 0;
+}
+
+.heading{
+    margin: auto auto;
+}
+
+.payment-section{
+    margin-left: 50px ;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    height: 400px;
+}
+
+.pay{
+    display: flex;
+    flex-direction: row;
+    width: 165px;
+    height: 80px;
+}
+
+.pay1{
+    background: transparent url("images/emi.png") no-repeat top;
+    background-size: 40%;
+    background-position: center;
+}
+.pay2{
+    background: transparent url("images/gpay.png") no-repeat top;
+    background-size: 30%;
+    background-position: center;
+}
+.pay3{
+    background: transparent url("images/card.jpg") no-repeat top;
+    background-size: 60%;
+    background-position: center;
+}
+.pay4{
+    background: transparent url("images/visa.png") no-repeat top;
+    background-size: 50%;
+    background-position: center;
+}
+.pay5{
+    background: transparent url("images/paypal.png") no-repeat top;
+    background-size: 50%;
+    background-position: center;
+}
+.pay6{
+    background: transparent url("images/upi.svg") no-repeat top;
+    background-size: 40%;
+    background-position: center;
+}
+
+.payment-section button{
+    font-weight: 600;
+    color: rgb(5, 5, 5);
+    background-color: rgb(255, 255, 255);
+}
+
+.bottom-section{
+    width: 620px;
+    height: 75px;
+}
+
+.bottom-section button{
+    font-size: 32px;
+    font-weight: 500;
+    color: white;
+    width: 620px;
+    height: 75px;
+    background-color: red;
+}
+
