@@ -1,6 +1,6 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url("images/bg6.jpg");
+    background-image: url("images/payment/bg6.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -55,7 +55,7 @@ body{
     display: flex;
     width: 20%;
     height: 80%;
-    background-image: url('images/rupee-logo.jpg');
+    background-image: url('images/payment/rupee-logo.jpg');
     background-size: cover;
     background-position: center;
     border-radius: 10px;
@@ -106,17 +106,17 @@ input{
 }
 
 .pay1{
-    background: transparent url("images/emi.png") no-repeat top;
+    background: transparent url("images/payment/emi.png") no-repeat top;
     background-size: 40%;
     background-position: center;
 }
 .pay2{
-    background: transparent url("images/gpay.png") no-repeat top;
+    background: transparent url("images/payment/gpay.png") no-repeat top;
     background-size: 30%;
     background-position: center;
 }
 .pay3{
-    background: transparent url("images/card.jpg") no-repeat top;
+    background: transparent url("images/payment/card.jpg") no-repeat top;
     background-size: 60%;
     background-position: center;
 }
@@ -126,12 +126,12 @@ input{
     background-position: center;
 }
 .pay5{
-    background: transparent url("images/paypal.png") no-repeat top;
+    background: transparent url("images/payment/paypal.png") no-repeat top;
     background-size: 50%;
     background-position: center;
 }
 .pay6{
-    background: transparent url("images/upi.svg") no-repeat top;
+    background: transparent url("images/payment/upi.svg") no-repeat top;
     background-size: 40%;
     background-position: center;
 }
