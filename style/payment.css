@@ -121,7 +121,7 @@ input{
     background-position: center;
 }
 .pay4{
-    background: transparent url("../images/visa.png") no-repeat top;
+    background: transparent url("../images/payment/visa.png") no-repeat top;
     background-size: 50%;
     background-position: center;
 }
