@@ -1,137 +1,150 @@
-body{
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
     font-family: Arial, Helvetica, sans-serif;
+    
     background-image: url("../images/payment/bg6.jpg");
     background-size: cover;
     background-position: center;
 }
 
-.payment-logo{
-    width: 35%;
-    height: 40px;
-    text-align: center;
-    font-size: 28px;
-    margin: auto auto;
-    border-radius: 5px;
-    padding: 0 20px;
-    margin: 60px auto;
-}
-
-.payment-logo h1{
+.payment-heading {
+    width: fit-content;
     color: white;
+    text-align: center;
+    font-size: 25px;
+    margin: 30px auto;
+    border-radius: 5px;
+    padding: 5px 25px;
     border: solid rgb(255, 253, 253);
 }
 
-.main
-{
+.main-container {
     background-color: white;
     display: flex;
     flex-direction: column;
-    width: 620px;
-    height: 700px;
-    margin: auto auto;
+
+    width: 90%;
+    margin: 5px auto;
     border: solid rgb(255, 254, 254);
+}
+
+.main-container, .top-section, .rupee-logo {
     border-radius: 10px;
 }
 
-.top-section{
+.top-section {
     display: flex;
-    background-color: rgb(221, 37, 37);
-    width: 620px;
-    height: 150px;
-   
-    text-align: center;
+    flex-direction: row;
+
+    width: 100%;
+    height: 15vh;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.text{
-    margin: auto 20px auto 40px;
-    color: rgb(255, 255, 255);
-    border-radius: 10px;
-    width: fit-content;
-
+.text {
+    margin-right: 10px;
+    color: whitesmoke;
+    text-align: right;
 }
+
 .rupee-logo{
-    margin-top: 5px;
     margin-left: 5px;
-    display: flex;
+
     width: 20%;
     height: 80%;
+
     background-image: url('../images/payment/rupee-logo.jpg');
     background-size: cover;
     background-position: center;
-    border-radius: 10px;
+    
     border: solid white;
 }
 
-.middle-section{
+.middle-section {
     display: flex;
     flex-direction: column;
-    width: 620px;
-    height: 250px;
 
+    width: 80%;
+    margin: 25px auto;
 }
 
-label{
-    margin-top: 20px;
-    margin-left: 50px;
+label, input {
+    margin: 7px 0px;
+}
+
+label {
     color: rgb(126, 125, 125);
     font-size: 20px;
     font-weight: 600;
 }
-input{
-    margin-left: 50px;
-    height: 40px;
-    width: 500px;
+
+input {
+    font-size: 20px;
     border-width: 0 0 2px;
     outline: 0;
 }
 
-.heading{
+.select-payment-method {
     margin: auto auto;
 }
 
-.payment-section{
-    margin-left: 50px ;
-    margin-top: 25px;
+.payment-section {
     display: flex;
     flex-direction: row;
-    width: 500px;
-    height: 400px;
+
+    width: 90%;
+    margin: 15px auto;
+}
+
+.row1, .row2, .row3 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 .pay{
-    display: flex;
-    flex-direction: row;
-    width: 165px;
-    height: 80px;
-}
+    padding: 2.5rem 4.5rem;
+    margin: 3px;
+    border: 1px gainsboro solid;
+    border-radius: 3px;
 
-.pay1{
-    background: transparent url("../images/payment/emi.png") no-repeat top;
+    background-repeat: no-repeat;
     background-size: 40%;
     background-position: center;
+    cursor: pointer;
 }
-.pay2{
-    background: transparent url("../images/payment/gpay.png") no-repeat top;
-    background-size: 30%;
-    background-position: center;
+
+#pay-1 {
+    background: transparent url("../images/payment/emi.png");
 }
-.pay3{
-    background: transparent url("../images/payment/card.jpg") no-repeat top;
-    background-size: 60%;
-    background-position: center;
+
+#pay-2 {
+    background: transparent url("../images/payment/gpay.png");
 }
-.pay4{
-    background: transparent url("images/visa.png") no-repeat top;
-    background-size: 50%;
-    background-position: center;
+
+#pay-3 {
+    background: transparent url("../images/payment/card.jpg");
 }
-.pay5{
-    background: transparent url("../images/payment/paypal.png") no-repeat top;
-    background-size: 50%;
-    background-position: center;
+
+#pay-4 {
+    background: transparent url('../images/payment/visa.png')
 }
-.pay6{
-    background: transparent url("../images/payment/upi.svg") no-repeat top;
+
+#pay-5 {
+    background: transparent url("../images/payment/paypal.png");
+}
+
+#pay-6 {
+    background: transparent url("../images/payment/upi.svg");
+}
+
+#pay-1, #pay-2, #pay-3, #pay-4, #pay-5, #pay-6 {
+    background-repeat: no-repeat;
     background-size: 40%;
     background-position: center;
 }
@@ -142,17 +155,35 @@ input{
     background-color: rgb(255, 255, 255);
 }
 
-.bottom-section{
-    width: 620px;
-    height: 75px;
+.bottom-section {
+    margin: auto auto;
+    width: 90%;
 }
 
 .bottom-section button{
-    font-size: 32px;
+    display: block;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+
+    font-size: 20px;
     font-weight: 500;
+
     color: white;
-    width: 620px;
-    height: 75px;
-    background-color: red;
+
+    padding: 7px 0px;
+    cursor: pointer;
+
+    margin-bottom: 5px;
 }
 
+/* Color for top and bottom */
+.top-section, .bottom-section button {
+    background-color: rgb(83, 29, 29);
+}
+
+@media only screen and (min-width: 900px) {
+    .main-container {
+        width: 50%;
+    }
+}
