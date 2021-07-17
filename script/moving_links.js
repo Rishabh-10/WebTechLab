@@ -1,19 +1,23 @@
 
-// // Webinar on data science
-// // Hackerrank contest
+// stoping the slider
 
-// function first() {
-//     document.getElementById('update-link').innerText = 'Webinar on Data Science';
-// }
+const link1 = document.getElementById('text-1');
+const link2 = document.getElementById('text-2');
+const link3 = document.getElementById('text-3');
 
-// function second() {
-//     document.getElementById('update-link').innerText = 'Hackerrank contest';
-// }
+function stopSlider() {
+    link1.style.animationPlayState = 'paused';
+}
 
-// function third() {
-//     document.getElementById('update-link').innerText = 'Blog on SEO';
-// }
+function playSlider() {
+    link1.style.animationPlayState = 'running';
+}
 
-// setInterval(first, 3000);
-// setInterval(second, 6000);
-// setInterval(third, 9000);
+link1.onmouseenter = stopSlider;
+link1.onmouseleave = playSlider;
+
+link2.onmouseenter = stopSlider;
+link2.onmouseleave = playSlider;
+
+link3.onmouseenter = stopSlider;
+link3.onmouseleave = playSlider;

@@ -169,8 +169,8 @@ header {
 }
 
 #text-1 {
-    animation: slider 5s linear infinite;
     padding-top: 10px;
+    animation: slider 5s linear infinite;
 }
 
 .update-link {
@@ -180,6 +180,10 @@ header {
 
 .update-link:hover {
     text-decoration: underline;
+}
+
+#text-1:hover {
+
 }
 
 /* Main */
