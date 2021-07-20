@@ -21,3 +21,7 @@ link2.onmouseleave = playSlider;
 
 link3.onmouseenter = stopSlider;
 link3.onmouseleave = playSlider;
+
+
+// Opening the site where we want it to
+

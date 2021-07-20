@@ -1,0 +1,66 @@
+header {
+    margin: 10px auto;
+    background: none;
+    height: fit-content;
+    width: 90vw;
+}
+
+header h1 {
+    font-size: 60px;
+    color: brown;
+}
+
+.blog-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-red {
+    margin: 10px;
+}
+
+.btn-red:hover {
+    color: white;
+    text-decoration: none;
+}
+
+
+/* Main */
+
+.topBar {
+    border: salmon solid;
+    text-align: center;
+}
+
+.topBar ul {
+    list-style-type: none;
+}
+
+.list-element {
+    text-decoration: underline;
+    display: inline-block;
+    margin: 5px 15px;
+    font-size: 18px;
+}
+
+.list-element a {
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.blogs {
+    margin: 35px 10px;
+}
+
+.blog-heading {
+    font-size: 30px;
+    /* text-decoration: underline; */
+    border: salmon solid;
+    width: fit-content;
+    padding: 5px;
+}
+
+.blog-text {
+    font-size: 20px;
+}
